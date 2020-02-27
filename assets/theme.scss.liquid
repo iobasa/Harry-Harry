@@ -7108,7 +7108,7 @@ $social-sharing-link-border-color: rgba($color-body-text, 0.1);
 
   40% {
     opacity: 1;
-  }  
+  }
 }
 
 @include keyframes(sk-circleFadeDelay) {
@@ -8769,3 +8769,23 @@ $fast-drawer-transition: transform 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-color: $color-body-text;
 }
 
+.banner-section {
+  text-align: center;
+}
+
+.banner-image{
+  background: center / cover no-repeat;
+  padding: 250px 20px;
+
+  @include media-query($medium-up) {
+    padding: 500px 20px;
+  }
+}
+
+.banner-title {
+  color: #ffffff;
+}
+
+.banner-subtitle{
+  color: #ffffff;
+}
