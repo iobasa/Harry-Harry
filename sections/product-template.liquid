@@ -93,6 +93,9 @@
             <span class="product__compare-price-label visually-hidden">{{ 'products.product.regular_price' | t }}</span>
             <s class="product__compare-price" data-compare-price>{{ current_variant.compare_at_price | money }}</s>
 
+             <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
+
+
             {% include 'product-unit-price', variant: current_variant %}
           </p>
 
@@ -129,6 +132,8 @@
                         {% include 'social-sharing', type: "product", links: 'bottom' share_title: product.title, share_permalink: product.url, share_image: product %}
                     </div>
                   </div>
+
+                   <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
                 {% endif %}
               {% endif %}
             </div>
