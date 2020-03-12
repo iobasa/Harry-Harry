@@ -164,7 +164,7 @@
       "add_new": "添加新地址",
       "edit_address": "编辑地址",
       "first_name": "名字",
-      "last_name": "姓",
+      "last_name": "姓氏",
       "company": "公司",
       "address1": "地址 1",
       "address2": "地址 2",
@@ -238,7 +238,7 @@
     "register": {
       "title": "创建账户",
       "first_name": "名字",
-      "last_name": "姓",
+      "last_name": "姓氏",
       "email": "电子邮件",
       "password": "密码",
       "submit": "创建",

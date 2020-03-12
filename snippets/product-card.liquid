@@ -12,8 +12,6 @@
 
       <h3 class="card__name h4">{{ product.title }}</h3>
 
-      <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
-
       {% if product.available %}
         <div class="card__price">
           {%- assign variant = product.selected_or_first_available_variant %}
@@ -67,4 +65,3 @@
     {% endif %}
   </a>
 </div>
-
