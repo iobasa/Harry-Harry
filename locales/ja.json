@@ -248,7 +248,7 @@
   "homepage": {
     "onboarding": {
       "collection_title": "コレクションの名前",
-      "product_vendor": "商品のベンダー",
+      "product_vendor": "商品の販売元",
       "product_title": "商品名の例",
       "blog_title": "記事のタイトル",
       "blog_excerpt": "あなたはまだブログ記事を投稿していません。ブログは新商品情報やニュースなどの情報発信に使用することができます。Shopifyのブログを確認して、ストアとブログについてのインスピレーションとアドバイスをゲットしましょう。",

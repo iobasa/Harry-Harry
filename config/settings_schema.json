@@ -3,7 +3,7 @@
     "name": "theme_info",
     "theme_name": "Narrative",
     "theme_author": "Shopify",
-    "theme_version": "8.1.5",
+    "theme_version": "8.1.6",
     "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/using-themes\/themes-by-shopify\/narrative",
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
@@ -823,7 +823,7 @@
           "ms": "Tunjukkan nota troli",
           "nb": "Vis handlekurvmerknad",
           "nl": "Opmerking  voor winkelwagen weergeven",
-          "pt-BR": "Apresentar observação do carrinho",
+          "pt-BR": "Exibir observação do carrinho",
           "pt-PT": "Mostrar nota do carrinho",
           "sv": "Visa varukorg",
           "th": "แสดงบันทึกตะกร้าสินค้า",

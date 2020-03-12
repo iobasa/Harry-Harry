@@ -82,7 +82,7 @@
       "email": "E-mail",
       "message": "Mensagem",
       "post": "Postar comentário",
-      "moderated": "Os comentários devem ser aprovados antes de serem publicados",
+      "moderated": "Os comentários precisam ser aprovados antes de serem publicados",
       "success_moderated": "Seu comentário foi publicado. Nós o publicaremos em alguns instantes, já que o nosso blog é moderado.",
       "success": "Seu comentário foi publicado.",
       "with_count": {
