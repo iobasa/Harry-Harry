@@ -1,6 +1,6 @@
 
-<div class="banner-image" style="background-image: url('{{ section.settings.image | img_url:'1000x' }}');">
-
+<div class="banner-image" style="background-image: url('{{ section.settings.image | img_url:'500x' }}');">
+<div class="banner-t">
 {% if section.settings.subtitle != blank %}
 <p class="banner-subtitle">{{ section.settings.subtitle }}</p>
 {% endif %}
@@ -8,6 +8,7 @@
 {% if section.settings.main_title != blank %}
 <h1 class="banner-title">{{ section.settings.main_title }}</h1>
 {% endif %}
+</div>
 </div>
 
 {% schema %}
